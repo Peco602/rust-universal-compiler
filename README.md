@@ -46,7 +46,7 @@ docker run --rm -v $PWD/test-project:/app -w /app rust-universal-compiler:latest
 
 ## DockerHub
 
-- [peco602/rust-universal-compiler](https://hub.docker.com/repository/docker/peco602/rust-universal-compiler)
+- [peco602/rust-universal-compiler](https://hub.docker.com/r/peco602/rust-universal-compiler)
 
 
 ## Bibliography
