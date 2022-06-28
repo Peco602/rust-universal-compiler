@@ -13,7 +13,7 @@ docker build -t rust-universal-compiler:latest .
 
 ## Configure the project
 
-To allow cross-compilation from Linux to Windows and MacOS it is necessary to create in the project folder the `.cargo/config` file with the following lines:
+To allow cross-compilation from Linux to Windows and MacOS, it is necessary to create in the project folder the `.cargo/config` file containing the following lines:
 
 ```ini
 [target.x86_64-pc-windows-msvc]
@@ -24,7 +24,7 @@ linker = "x86_64-apple-darwin14-clang"
 ar = "x86_64-apple-darwin14-ar"
 ```
 
-## Build the project
+## Compile the project
 
 Compile for Linux (`x86_64-unknown-linux-gnu`):
 

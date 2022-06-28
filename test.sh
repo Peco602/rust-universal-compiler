@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 IMAGE_NAME="rust-universal-compiler:latest"
 PROJECT_FOLDER="test-project"
 
