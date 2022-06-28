@@ -4,12 +4,11 @@ IMAGE_NAME="rust-universal-builder:latest"
 PROJECT_FOLDER="test-project"
 
 echo " [+] Building docker image"
-docker build -t $IMAGE_NAME
+docker build -t $IMAGE_NAME .
 
 targets=( "x86_64-unknown-linux-gnu" "x86_64-apple-darwin" "x86_64-pc-windows-msvc" )
- 
 i=0
-len=${#arr[@]}
+len=${#targets[@]}
 while [ $i -lt $len ];
 do
     echo " [+] Compiling for target: ${targets[$i]}"
