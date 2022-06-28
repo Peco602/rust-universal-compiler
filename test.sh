@@ -1,6 +1,8 @@
 #!/bin/bash
 
-IMAGE_NAME="rust-universal-builder:latest"
+set -e
+
+IMAGE_NAME="rust-universal-compiler:latest"
 PROJECT_FOLDER="test-project"
 
 echo " [+] Building docker image"
