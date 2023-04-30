@@ -1,4 +1,5 @@
 ![Test](https://github.com/Peco602/rust-universal-compiler/actions/workflows/test.yml/badge.svg)
+[![Mentioned in awesome-docker](https://awesome.re/mentioned-badge.svg)](https://github.com/veggiemonk/awesome-docker)
 
 # Rust Universal Compiler Docker image
 
